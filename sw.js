@@ -1,7 +1,7 @@
 /* Offline shell: the app shell is cached on install, every same-origin
    response is cached as it passes, and a cached copy answers when the
    network fails. Bump CACHE to drop stale files. */
-const CACHE = 'genpodryad-v9';
+const CACHE = 'genpodryad-v10';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './pwa/icon-192.png', './pwa/icon-512.png'];
 
 self.addEventListener('install', (event) => {
